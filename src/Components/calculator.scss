@@ -1,0 +1,81 @@
+@import "../../app.scss";
+
+.Calculator{
+    width: 400px;
+    height: fit-content;
+    margin: 40px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    gap: 5px;
+
+    .displayContainer{
+        margin-top: 30px;
+        padding: 5px;
+        width: 90%;
+        height: 10vh;
+        background: gray;
+        border: 3px solid darkgray;
+        border-radius: 8px;
+        text-align:right;
+        margin: 5px auto;
+
+        .showOperands{
+            height: 3vh;
+        }
+
+        .showTotal{
+            margin-top: 5px;
+            font-size: 30px;
+        }
+
+    }
+
+    .keypadContainer{
+        margin-top: 5px;
+        width: 100%;
+        background: gray;
+
+        .keypad {
+            width: 100%;
+            margin: 0 auto;
+            padding: 5px;
+            border: 5px solid darkgray;
+
+            button {
+                width: calc(400px / 4 - 10px);
+                height: 25px;
+                font-size: 20px;
+                border-radius: 6px;
+                margin: 5px 2px;
+            }
+
+            button:last-child {
+                background-color: red;
+                position: relative;
+                right: -50%;
+                
+            }
+
+
+            .operator-button {
+                background-color: orange; // Choose the color you want
+                color: white;
+            }
+
+            .action-button {
+                background-color: blue; // Choose the color you want
+                color: white;
+            }
+
+            .digit-button {
+                background-color: green; // Choose the color you want for digit buttons
+                color: white;
+            }
+
+        }
+    }
+    
+
+    
+    
+}
