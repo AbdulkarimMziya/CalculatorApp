@@ -38,4 +38,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Images
-<img src="public/img-1.png" alt="Your Image" width="200" height="150" />
+<img src="public/img-1.png" alt="Your Image" width="200" height="150" /> <img src="public/img-2.png" alt="Your Image" width="200" height="150" />
